@@ -1,0 +1,22 @@
+Privacy Policy — Owners Repository for GT3
+Effective: September 28, 2026  
+Android package: `com.ownersrepository.gt3`
+Owners Repository for GT3 is a local-first automotive record-keeping application.
+Data handling
+Vehicle details, maintenance history, tire records, track sessions, ownership information, photos, and receipt documents are stored in the app's private storage on the user's device. This release does not include advertising, analytics, user accounts, or developer-operated collection of those records.
+Optional location
+Precise location is requested only when the user chooses to use the GPS lap timer. It is processed transiently on the device to calculate speed and lap timing. Location is not transmitted to the developer or shared with third parties. Users can deny or revoke location permission in Android Settings without affecting the repository's other features.
+Documents and OCR
+Selected photos and PDFs remain in app-private storage. Receipt text recognition uses OCR components bundled with the app and runs locally on the device. Receipt content is not uploaded for processing.
+Google Play purchases
+Subscription checkout, free-trial eligibility, payment, renewal, cancellation, and refund processing are provided by Google Play. The app receives product details, purchase state, and a purchase token so it can grant, restore, acknowledge, or revoke access. The app never receives or stores payment-card details. Google handles purchase data under the Google Privacy Policy and Google Play terms.
+Network access
+Network access is used by the Google Play Billing library to obtain subscription products and verify access. Vehicle records, receipts, photos, OCR text, track logs, and location are not sent through the billing connection. Links intentionally opened by the user are handed to the device's separate web browser.
+Retention and deletion
+Records remain until the user deletes individual items, selects Settings → Clear all data, clears app storage through Android, or uninstalls the app. Android backups are disabled for this release. Clearing app data or uninstalling does not cancel a Google Play subscription; subscriptions can be managed in Google Play.
+Children
+The app is an automotive record-keeping tool and is not directed to children.
+Independent application
+This app is independently developed and is not affiliated with, endorsed by, or sponsored by Porsche AG or its affiliates. Porsche, 911, and GT3 are trademarks of their respective owners.
+Publisher contact
+Before public release, replace this section with a monitored publisher support email and host this policy at a stable public HTTPS URL. Material changes to data practices require an updated policy and Google Play Data safety declaration.
